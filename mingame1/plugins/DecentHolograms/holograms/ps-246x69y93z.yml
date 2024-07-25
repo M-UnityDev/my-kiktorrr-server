@@ -1,0 +1,15 @@
+location: world:-245,500:70,700:93,500
+enabled: true
+display-range: 60
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: §x§0§0§d§9§f§fБ§x§0§d§d§c§f§fо§x§1§9§d§f§f§eл§x§2§6§e§2§f§eь§x§3§2§e§5§f§dш§x§3§f§e§8§f§dо§x§4§b§e§b§f§dй
+      §x§5§8§e§e§f§cп§x§6§4§f§1§f§cр§x§7§1§f§4§f§bи§x§7§d§f§7§f§bв§x§8§a§f§a§f§aа§x§9§6§f§d§f§aт
+    height: 0.3
+  - content: '§fВладелец: §x§8§4§f§0§f§bPytKiktorrr'
+    height: 0.3
+  actions: {}

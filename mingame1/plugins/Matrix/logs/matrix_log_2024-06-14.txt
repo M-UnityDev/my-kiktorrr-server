@@ -1,0 +1,6 @@
+(09:23:40) Matrix Enabled! Version: 7.8.1A
+(15:30:44) PytKiktorrr failed Move check | unexpected horizontal movement (motion: 0.403/0.33, buffer: 0.55/false, vet: 0.42, vec: 0.0, ground: +,-, spr: +, add: 0.33, past: -0.183,0.166, fr: 0.6, setback: +, vel: , from: 57.5, rv: 0.037, ptags: , tags: jump)() | vl:5(+5) ping:867 tps:20.0 component: move.hor ver: 1.16.x
+(15:35:19) PytKiktorrr failed Move check | unexpected vertical movement (motion: -0.078/0.302, hor: 0.538, buffer: 1.141/false, ground: -,-, setback: -, vel: VA:1.0, from: 48.2, past: 0.388, p_tags: vel_coll,velocity, tags: )() | vl:5(+5) ping:5 tps:20.0 component: move.vert ver: 1.16.x
+(15:35:42) PytKiktorrr failed Move check | unexpected vertical movement (motion: -0.078/0.161, hor: 0.739, buffer: 0.717/false, ground: -,-, setback: -, vel: VA:1.0, from: 48.2, past: 0.244, p_tags: vel_coll,velocity, tags: )() | vl:5(+5) ping:1 tps:20.0 component: move.vert ver: 1.16.x
+(15:36:28) PytKiktorrr failed Move check | unexpected vertical movement (motion: 0.827/0.941, hor: 0.836, buffer: 0.341/false, ground: -,-, setback: +, vel: EA:0.010341844521462917, VA:-0.097375, VU:1.0, from: 58.495, past: 1.04, p_tags: liquid,liquid_knockback, tags: air_mdf)() | vl:5(+5) ping:2 tps:20.0 component: move.vert ver: 1.16.x
+(16:49:34) Matrix Enabled! Version: 7.8.1A

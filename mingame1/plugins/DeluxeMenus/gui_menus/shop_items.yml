@@ -1,0 +1,306 @@
+#=========================================================
+#
+#
+#  Не забудьте подключить это меню
+#
+#  Для этого, вставьте этот кусок конфига в config.yml:
+#  shop_blocks:
+#    file: shop_blocks.yml
+#
+#
+#=========================================================
+menu_title: '&8Магазин &7→ &8Предметы'
+open_command: shop items
+size: 45
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: shop.open
+      deny_commands:
+        - "[message] &cУ вас нет прав."
+items:
+  '1':
+    material: golden_sword
+    slot: 10
+    amount: 1
+    display_name: '&c&lFire ball launcher'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$10000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 10000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 10000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eFire ball launcher'
+      - '[message]'
+      - '[console] ei give %player_name% firebal'
+
+  '2':
+    material: blaze_rod
+    slot: 11
+    amount: 1
+    display_name: '&c&lСнайперская винтовка'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$20000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 20000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 20000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eСнайперскую винтовку'
+      - '[message]'
+      - '[console] ei give %player_name% Vintovkf'
+
+  '3':
+    material: blaze_rod
+    slot: 12
+    amount: 1
+    display_name: '&c&lAssault rifle'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$25000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 25000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 25000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eAssault rifle'
+      - '[message]'
+      - '[console] ei give %player_name% assault_rifle'
+
+  '4':
+    material: netherite_sword
+    slot: 13
+    amount: 1
+    display_name: '&c&lNinja sword'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$20000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 20000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 20000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eNinja sword'
+      - '[message]'
+      - '[console] ei give %player_name% ninga_sword'
+
+  '5':
+    material: paper
+    slot: 14
+    amount: 16
+    display_name: '&c&l12.7mm'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$1000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 1000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 1000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &e12.7mm'
+      - '[message]'
+      - '[console] ei give %player_name% patr1 16'
+
+  '6':
+    material: fishing_rod
+    slot: 15
+    amount: 1
+    display_name: '&c&lGrapling hook'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$10000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 10000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 10000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eGrapling hook'
+      - '[message]'
+      - '[console] ei give %player_name% Prem_Grappling_Hook'
+
+  '7':
+    material: fishing_rod
+    slot: 16
+    amount: 1
+    display_name: '&c&lHook'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$30000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 30000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 30000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eHook'
+      - '[message]'
+      - '[console] ei give %player_name% hook_grap'
+  '8':
+    material: elytra
+    slot: 22
+    amount: 1
+    display_name: '&c&lElytra'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$100000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 100000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 100000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eElytra'
+      - '[message]'
+      - '[console] minecraft:give %player_name% elytra'
+  '9':
+    material: diamond_sword
+    slot: 23
+    amount: 1
+    display_name: '&c&lFast-moving dagger'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$35000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 35000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 35000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eFast-moving dagger'
+      - '[message]'
+      - '[console] ei give %player_name% fasd'
+  '10':
+    material: netherite_pickaxe
+    slot: 21
+    amount: 1
+    display_name: '&c&lЛоматель обсидиана'
+    lore:
+    - '&f&lЛомает обсидиан в приватах'
+    - ''
+    - '&aЛКМ &7- Купить за &e$10000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 10000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 10000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eЛоматель обсидиана'
+      - '[message]'
+      - '[console] ei give %player_name% obsdes'
+  '11':
+    material: diamond_block
+    slot: 31
+    amount: 1
+    display_name: '&9&lПриват на 10 блоков'
+    lore:
+    - '&f&lБлоки ломают только фаерболлы'
+    - ''
+    - '&aЛКМ &7- Купить за &e$15000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 15000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 15000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eПриват на 10 блоков'
+      - '[message]'
+      - '[console] ps give 10 {player_name}'
+

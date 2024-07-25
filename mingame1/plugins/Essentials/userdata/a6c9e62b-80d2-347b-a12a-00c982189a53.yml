@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 90.151.88.112
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718778916266
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718818025613
+  login: 1718817584684
+money: '4000'
+last-account-name: MUnityDev
+lastlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -179.5
+  y: 57.0
+  z: 94.5
+  yaw: 1.2642821073532104
+  pitch: 0.0
+logoutlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -204.8372405594198
+  y: 64.61316508646586
+  z: 192.1061644796253
+  yaw: -163.292724609375
+  pitch: 8.550129890441895

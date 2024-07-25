@@ -1,0 +1,26 @@
+location: world:-169,443:60,669:92,578
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&r&lПриветствую!'
+    height: 0.3
+  - content: '&f&lПолезные комманды'
+    height: 0.3
+  - content: '&f&l/seller - скупщик'
+    height: 0.3
+  - content: '&f&l/shop - магазин'
+    height: 0.3
+  - content: '&f&l/rtp'
+    height: 0.3
+  - content: '&f&l/ah - аукцион'
+    height: 0.3
+  - content: '&f&l/ps sethome - создает'
+    height: 0.3
+  - content: '&f&lсетхом в вашем привате'
+    height: 0.3
+  actions: {}

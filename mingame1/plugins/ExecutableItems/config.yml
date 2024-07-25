@@ -1,0 +1,30 @@
+# Download it here: https://black-minecraft.com/resources/230/
+# ----------------------------------
+# -
+#       ExecutableItems
+# -
+#         By: Ssomar
+# -
+# ----------------------------------
+# -
+# WIKI HERE : https://docs.ssomar.com/executableitems/information-ei
+# DISCORD HERE : https://discord.com/invite/TRmSwJaYNv
+# -
+pickupLimit: -1
+disabledWorlds: []
+whitelistedWorlds: []
+whitelistItemsPerWorld: []
+premiumEnableCooldownForOp: true
+checkVersionMsg: false
+disableTestItems: false
+silentMessagePreventionErrorHeadDBError: false
+disableBackup: false
+deleteBackupsAfterDays: 7
+enableGarbageCollectorAfterReload: false
+giveLimit: 100
+logs:
+  dropped: true
+  spawned: true
+debugOnlyRun: false
+config_12_04_2024: true
+silentGive: false

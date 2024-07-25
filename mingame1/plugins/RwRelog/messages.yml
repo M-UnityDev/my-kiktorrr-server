@@ -1,0 +1,29 @@
+bossbar-time: '&7До окончания PVP режима &c{time}&7 сек.'
+pvp-entered: Вы вошли в PVP режим. За выход с сервера - смерть.
+pvp-ended: PVP режим закончился. Можно спокойно выходить.
+player-leave: '{player} ливнул с PVP и был убит'
+cmd-blocked: Команды недоступны в PVP режиме
+mode:
+  fly: 'Вы не можете войти в пвп режим в полёте'
+  god: 'Вы не можете войти в пвп режим в годмоде'
+  creative: 'Вы не можете войти в пвп режим в креативе'
+cooldown:
+  title: '&c&l✖'
+  subtitle: '&7Будет доступно через &c{time}&7 сек.'
+
+######################################################################
+# ©LIGHTLEAK
+#                           «LIGHTLEAK»
+#                             © 2024
+#                      Только безопасные сливы
+#
+# • Ресурс был скачан: https://lightleak.pro/members/22323/
+# • Ресурс: https://lightleak.pro/resources/509/
+# • Website: https://lightleak.pro/
+# • Discord: https://discord.gg/pWhyMhXsuS
+#
+#
+#
+#
+#                                                          ©LIGHTLEAK
+######################################################################

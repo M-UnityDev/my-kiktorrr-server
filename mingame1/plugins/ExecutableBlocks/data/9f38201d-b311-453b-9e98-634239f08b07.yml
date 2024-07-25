@@ -1,0 +1,13 @@
+location:
+  ==: org.bukkit.Location
+  world: world
+  x: -201.5
+  y: 57.5
+  z: 62.5
+  pitch: 0.0
+  yaw: 0.0
+executableBlockID: Prem_Target
+usage: -1
+owner: PytKiktorrr
+ownerUUID: 55e35ae3-c05c-387a-b37b-b2b2bb992ff7
+variables: {}

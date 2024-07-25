@@ -1,0 +1,21 @@
+# This is the server motd.
+Server-MOTD:
+  Line-1: '&c&lRunChest'
+  Line-2: '&fMinecraft-сервер, где каждый может найти что-то необычное.'
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: false
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - '&eПривет! Если хочешь купить донат то он расположен по этому адресу runchest.easydonate.ru'
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: true
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: server-icon.png
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: true
+  Maximum-Players: 200

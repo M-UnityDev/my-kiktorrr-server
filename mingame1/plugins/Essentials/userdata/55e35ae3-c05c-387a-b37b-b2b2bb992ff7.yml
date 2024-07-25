@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.104
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718434296814
+  lastheal: 1718356433815
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718785700192
+  login: 1718783974720
+money: '13723.1'
+logoutlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -166.39670549215012
+  y: 57.0
+  z: 93.8740788925846
+  yaw: 189.34396362304688
+  pitch: 4.049585819244385
+last-account-name: PytKiktorrr
+lastlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -160.5
+  y: 57.0
+  z: 87.5
+  yaw: 3.140622615814209
+  pitch: 0.0

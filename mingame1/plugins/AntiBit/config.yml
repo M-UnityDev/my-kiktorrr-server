@@ -1,0 +1,9 @@
+# Параметры скорости игрока
+speedThreshold: 0.8
+
+# Параметры предупреждений
+maxWarnings: 5
+warningMessage: "Warning %d/%d"
+
+# Параметры наказания
+kickMessage: "You were kicked for cheating."

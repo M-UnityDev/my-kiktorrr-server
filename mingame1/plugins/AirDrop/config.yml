@@ -1,0 +1,243 @@
+# {time_n} Выводит 1 минута. {time2_n} Выводит 1 минуту. {time3_n} Выводит чч:мм:сс. {time4_n} Выводит секунды.  Работает не во всех сообщениях!
+# {time_start}, {time2_start}, {time3_start}, {time4_start} Время до начала ивента
+# {time_locked}, {time2_locked}, {time3_locked},{time4_locked} Время до открытия аирдропа
+# {time_end}, {time2_end}, {time3_end}, {time4_end} Время до окончания аирдропа
+# {x}, {y}, {z} координаты аирдропа
+# {name} имя аирдропа
+# {world} мир в котором появится аирдроп
+# {px} заменяется на prefix. Во всех сообщениях
+use-bstats: true
+chests:
+  default:
+    countdown-after-click: false
+    chest-id: default
+    chest-name: '&7Мифический сундук'
+    chest-inventory-size: 54
+    item-chance-boost: 0
+    only-chance: 0
+    chest-spawn-world: world
+    chest-spawn-radius-min: -1000
+    chest-spawn-radius-max: 1000
+    chest-radius-protect: 3
+    time-start-interval: 60
+    search-before-start: 1
+    duration-event: 1
+    time-stop-event: 1
+    chest-material-locked: RESPAWN_ANCHOR
+    chest-material-unlocked: CHEST
+    helix: DOUBLE-HELIX
+    random-particle: true
+config-version: 1.5
+black-List:
+- LAVA
+- WATER
+- SNOW
+- BEDROCK
+- CACTUS
+- FIRE
+- END_PORTAL
+- END_CRYSTAL
+- END_PORTAL_FRAME
+- NETHER_PORTAL
+- ACACIA_LEAVES
+- AZALEA_LEAVES
+- BIRCH_LEAVES
+- OAK_LEAVES
+- DARK_OAK_LEAVES
+- SPRUCE_LEAVES
+- FLOWERING_AZALEA_LEAVES
+- JUNGLE_LEAVES
+msg:
+  drop-open-event: '&fИгрок &6{player} &7первым добрался до {name}!'
+  drop-open: '{px} {name} &fоткрыт на координатах &6{x}, {y}, {z} &f В мире: {world}'
+  drop-spawning: '{px} {name} &fтолько что &6появился &fна координатах &6{x}, {y},
+    {z}'
+  event-end: '{px} {name} &7окончен!'
+  msg-open-event: '{px} {name} &fоткроется через &6{time2_locked}!'
+  msg-start-event: '{px} {name} &fпоявится через &6{time2_start}!'
+  chest-locked: '{px} &cСундук закрыт!'
+  prefix: ''
+  item-del: '&c&lПКМ &f- удалить предмет из списка'
+  unknown-command: '&cНеизвестная команда'
+  invalid-key: '{PP} &cПредметов с таким ключом нет!'
+  only-players: '{PP} Only players!'
+  reload: '{PP} &aКонфиг перезагружен!'
+  item-add: '{PP} &aПредметы добавлены по ключу {key}'
+  error-number: '{PP} &cОшибка возможно вы ввели не число! детали в консоли'
+  no-prem: '&cУ Вас нет разрешения!'
+  no-event: '{PP} &cИзвините но ивент не начат!'
+  few-arguments: '{PP} &cМало аргументов!'
+  papi-event-is-activity: '&aНачат!'
+  papi-event-ended: '&aИвент окончен'
+  papi-chest-is-unlocked: '&aУже открыт!'
+  papi-poz: '{x}, {y}, {z}'
+  papi-poz-none: '&cНет активного ивента!'
+  unlock-hold-timer:
+  - '&aНажмите чтобы активировать'
+  notification-open-time:
+  - '60'
+  - '30'
+  - '10'
+  - '5'
+  - '3'
+  - '2'
+  - '1'
+  notification-time:
+  - '60'
+  - '30'
+  - '10'
+  - '5'
+  - '3'
+  - '2'
+  - '1'
+  notification-unlock-sound-time:
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+  notification-start-sound-time:
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+  format-time:
+  - ' час '
+  - ' часа '
+  - ' часов '
+  - ' минута '
+  - ' минуты '
+  - ' минут '
+  - ' секунда'
+  - ' секунды'
+  - ' секунд'
+  - ' час '
+  - ' минуту '
+  - ' секунду'
+  world-localization:
+    world: Обычный мир
+    world_the_end: Эндер мир
+    world_nether: Нижний мир
+  holograms-lines:
+    locked:
+    - '&k0000000000000000000000000000000'
+    - '{name} &cЗакрыт {time3_locked}'
+    - '&k0000000000000000000000000000000'
+    unlocked:
+    - '{name}'
+    - '&aОткрыто'
+settings:
+  stop-event-if-chest-is-empty: true
+  min-online-players: 1
+  empty-slot-chance: 25
+  laser-settings:
+    laser: CRYSTAL_LASER
+    laser-view-distance: 50
+    laser-time: 300
+  hologram-height:
+    auto: true
+    offset-x: 0.5
+    offset-y: 1.5
+    offset-z: 0.5
+  defenders:
+    name: '&c&lХранитель'
+    type: VINDICATOR
+  effect-settings:
+    explosion-power: 4.75
+    drop-open-effect:
+    - explosion
+    - strikeLightning
+    - fireWork
+    - fakeStrikeLightning
+    - defenders
+    sound-effect:
+      start-event:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: all
+      open-event:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: near
+      end-event:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: all
+      click-event:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: player
+      click-open-event:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: player
+      notification-start-sound:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: all
+      notification-unlock-sound:
+        play-sound: false
+        sound: BLOCK_STONE_BUTTON_CLICK_ON
+        listeners: near
+    helix-settings:
+      close:
+        color:
+          r: 255
+          g: 0
+          b: 0
+      open:
+        color:
+          r: 0
+          g: 255
+          b: 0
+      radius: 1
+      view-distance: 50
+      height-y: 50
+      helix-pitch: 0.05
+      offset-y: 3
+      offset-x: 0.5
+      offset-z: 0.5
+    double-helix-settings:
+      close:
+        color:
+          r: 255
+          g: 0
+          b: 0
+        color2:
+          r: 0
+          g: 137
+          b: 255
+      open:
+        color:
+          r: 0
+          g: 255
+          b: 0
+        color2:
+          r: 255
+          g: 255
+          b: 0
+      radius: 1
+      view-distance: 50
+      height-y: 50
+      helix-pitch: 0.05
+      offset-y: 3
+      offset-x: 0.5
+      offset-z: 0.5
+    random-particle:
+      particle: TOTEM
+      particle2: FLAME
+      amount: 50
+      radius: 5
+      view-distance: 50
+  world-guard-flags:
+    allow-flags:
+    - use
+    - pvp
+    - chest-access
+    deny-flags:
+    - creeper-explosion
+    - tnt
+    - fire-spread
+    - lava-fire
+    - other-explosion

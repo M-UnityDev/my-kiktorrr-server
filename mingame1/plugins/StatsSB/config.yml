@@ -1,0 +1,91 @@
+#                 Stats Scoreboard Config                        #
+#                  Color Codes Supported                         #
+##################################################################
+
+MainOptions: 
+  # Update Checker will check if there's an update and notify the console and players with the permission statssb.admin
+   updateChecker: true
+
+  # Disable Certain World Stats, You can disable specific worlds from tracking stats.
+   disableCertainWorldStats: false
+   enabledWorlds: 
+   - world
+   - pvp
+
+  # Kill Streaks track how many kills in a row a player has. (Will display on the /stats, and Scoreboard)
+   KillStreaks: 
+      enabled: true
+
+# Scoreboard Settings, Self explanatory.
+Scoreboard: 
+   enabled: true
+   toggledByDefault: true
+   resetScoreboardToggleOnJoin: false
+   toggleSBMessageOn: '&7Scoreboard has been Toggled &aOn'
+   toggleSBMessageOff: '&7Scoreboard has been Toggled &cOff'
+   dateTimeZone: PST
+   dateFormat: MM/dd/yyyy
+   Economy: 
+      enabled: false
+   title: '&c&lRunChest'
+   layout: 
+   - '&#FFAA00&l-&#FFA307&l-&#FF9D0D&l-&#FF9614&l-&#FF901A&l-&#FF8921&l-&#FF8327&l-&#FF7C2E&l-&#FF7634&l-&#FF6F3B&l-&#FF6941&l-&#FF6248&l-&#FF5C4E&l-&#FF5555&l-'
+   - '%blank-1%'
+   - '&#FFAA00У&#FFA407б&#FF9D0Dи&#FF9714й&#FF901Aс&#FF8A21т&#FF8327в&#FF7D2Eа&#FF7634: &c%kills%'
+   - '&#FFAA00С&#FFA407м&#FF9D0Dе&#FF9714р&#FF901Aт&#FF8A21и&#FF8327: &c%deaths%'
+   - '&#FFAA00Б&#FFA407а&#FF9D0Dл&#FF9714а&#FF901Aн&#FF8A21с&#FF8327: &e$%vault_eco_balance_fixed%'
+   - '%blank-2%'
+   - '&#FFAA00&l-&#FFA307&l-&#FF9D0D&l-&#FF9614&l-&#FF901A&l-&#FF8921&l-&#FF8327&l-&#FF7C2E&l-&#FF7634&l-&#FF6F3B&l-&#FF6941&l-&#FF6248&l-&#FF5C4E&l-&#FF5555&l-'
+
+#Stats Command Settings.
+StatsCommand: 
+   enabled: true
+   enable-permission: false
+   no-permission-message: '&cYou do not have the Correct Permissions for this Command!'
+   message: 
+   - '&9|&l&m----------------------'
+   - '&3|User: &7%user%'
+   - '&3|Placement: &7%kills_rank%'
+   - '&3|Kills: &7%kills%'
+   - '&3|Deaths: &7%deaths%'
+   - '&3|KD: &7%kd%'
+   - '&3|Streak: &7%streak%'
+   - '&9|&l&m----------------------'
+
+# Leaderboard Settings. Custom Message supported.
+Leaderboard: 
+   update-time-in-seconds: 60
+   number-of-players-to-show: 10
+   playerFormat: '&7  #&f%rank% &3%player% &f- &7%amount%'
+   killsTitle: Kills Leaderboard
+   deathsTitle: Deaths Leaderboard
+   message: 
+   - '&8   &l&m                              '
+   - ' '
+   - '&b&l   %title%'
+   - ' '
+   - '%players%'
+   - ' '
+   - '&8   &l&m                              '
+   -
+database: 
+  # There's two database types
+  # SQLITE
+  # MYSQL
+   type: sqlite
+
+  # <<< If you're using SQLITE you should ignore under >>>
+   database: data
+   hostname: 127.0.0.1
+   port: 3306
+   username: root
+   password: 1234
+   bungee: false
+
+#Hologram Settings
+Holograms: 
+   number-of-players-to-show: 10
+   blank-line: true
+   killsTitle: '&e&lKills Leaderboard'
+   deathsTitle: '&e&lDeaths Leaderboard'
+   playerFormat: '&7  #&f%rank% &3%player% &f- &7%amount%'

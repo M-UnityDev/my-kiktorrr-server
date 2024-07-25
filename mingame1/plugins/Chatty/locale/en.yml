@@ -1,0 +1,69 @@
+messages:
+  # Non-removable lines.
+  # If you delete the line, a default English localization will be applied.
+  only-for-players: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fДанное действие только для игроков.'
+  chat-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fПодходящий чат не найден, сообщение не отправлено'
+  reload: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fПлагин перезагружен, коректно'
+  no-permission: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fНе достаточно полномочий'
+  spy-on: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fSpy-Mode был успешно активирован.'
+  spy-off: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fSpy-Mode был успешно деактивирован.'
+  cooldown: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fОжидайте ещё {cooldown} секунд, до истечения задержки.'
+  not-enough-money: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fВам нужно ещё {money} для отправки сообщения в чат.'
+
+  clearchat-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование: /{label} [all]'
+    clear-chat-for-all: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fЧат очищен администратором {player}.'
+    clear-chat-for-yourself: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fЧат очищен.'
+
+  msg-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование: /{label} (Игрок) (Сообщение)'
+    player-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fИгрок не найден.'
+    cannot-message-yourself: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fВы не можете отправлять сообщения самому себе.'
+
+  reply-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование: /{label} (Сообщение)'
+    target-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fИгрок не найден.'
+
+  ignore-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование: /{label} (Игрок)'
+    player-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fИгрок не найден.'
+    ignore-list: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fСейчас вы игнорируете: {players}'
+    ignore-list-delimiter: '&8, &6'
+    add-ignore: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fСейчас вы игнорируете, {player}.'
+    remove-ignore: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fСейчас вы не игнорируете, {player}.'
+    cannot-ignore-yourself: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fВы не можете игнорировать самого себя.'
+
+  swears-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование /{label} add (Слово)'
+    add-word: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fВы добавили слово {word} в белый список.'
+
+  chat-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование /{label} (Чат)'
+    chat-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fЧат с таким именем не найден.'
+    chat-switched: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fВы были переключены на чат: "{chat}".'
+    no-chat-permission: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fНе достаточно полномочий'
+
+  prefix-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование /{label} (Игрок) ( prefix | clear )'
+    no-permissions-others: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fНе достаточно полномочий'
+    player-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fИгрок не найден.'
+    length-limit-min: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fПрефикс не может быть короче чем {limit} символов.'
+    length-limit-max: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fПрефикс не может быть длинее чем {limit} символов.'
+    prefix-clear: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fВы очистили префикс игроку, {player}.'
+    prefix-set: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fВы установили префикс, "&r{prefix}&r&f" для игрока {player}.'
+
+  suffix-command:
+    usage: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fИспользование /{label} (Игрок) ( suffix | clear )'
+    no-permissions-others: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fНе достаточно полномочий'
+    player-not-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fИгрок не найден.'
+    length-limit-min: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fСуффикс не может быть короче чем {limit} символов.'
+    length-limit-max: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fСуффикс не может быть длинее чем {limit} символов.'
+    suffix-clear: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fВы очистили суффикс игроку, {player}.'
+    suffix-set: '&x&f&f&a&5&1&dP&x&f&d&b&0&2&fl&x&f&c&b&b&4&2e&x&f&a&c&6&5&4x&x&f&9&d&1&6&7M&x&f&7&d&c&7&9i&x&f&5&e&7&8&bn&x&f&4&f&2&9&ee&x&f&2&f&d&b&0s &r&c>> &fВы установили суффикс, "&r{prefix}&r&f" для игрока {player}.'
+
+  # Removable lines.
+  # Delete the line to disable message.
+  advertisement-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fВ вашем сообщении найдена реклама.'
+  no-recipients: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fНикто вас не услышал.'
+  caps-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fCAPS-LOCK не разрешён на нашем сервере'
+  swear-found: '&x&f&f&0&0&0&0О&x&f&f&1&d&1&dш&x&f&e&3&a&3&aи&x&f&e&5&7&5&7б&x&f&d&7&4&7&4к&x&f&d&9&1&9&1а &r&c>> &fВ вашем соообщении обнаружены ругательства.'

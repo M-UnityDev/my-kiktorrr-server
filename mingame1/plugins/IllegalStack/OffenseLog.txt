@@ -1,0 +1,20 @@
+06/07/24 13:48:56 - broke a trapped nether portal @ Location{world=CraftWorld{name=world_nether},x=1.7415458593077768,y=83.42723799683108,z=-24.098918220737993,pitch=47.699673,yaw=-13.081562}
+06/07/24 13:49:07 - broke a trapped nether portal @ Location{world=CraftWorld{name=world_nether},x=1.300000011920929,y=83.0,z=-24.69999998807907,pitch=52.500134,yaw=221.3661}
+06/07/24 13:49:17 - broke a trapped nether portal @ Location{world=CraftWorld{name=world_nether},x=2.699999988079071,y=83.88774619820929,z=-24.30000001192093,pitch=72.30015,yaw=163.16774}
+06/07/24 13:49:49 - broke a trapped nether portal @ Location{world=CraftWorld{name=world_nether},x=2.3195863335354243,y=83.0,z=-24.5,pitch=15.600113,yaw=92.21772}
+06/07/24 16:40:07 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 16:40:12 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 16:40:14 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 16:40:15 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 16:40:17 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 16:40:19 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 16:40:29 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:07:48 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:07:56 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:26:25 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:26:26 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:26:34 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:26:49 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:26:56 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:44:54 - Illegal stack of items removed: WRITABLE_BOOK (2) from player: PytKiktorrr at item scan.
+06/07/24 17:53:50 - Removed invalid potion from PytKiktorrr had the following effects: HEAL amplifier: 0 duration: 2147483647,

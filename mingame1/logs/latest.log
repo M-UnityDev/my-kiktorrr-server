@@ -1,0 +1,476 @@
+[17:18:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:18:36] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:18:38] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:18:40] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:18:40] [Server thread/INFO]: Loading properties
+[17:18:40] [Server thread/INFO]: This server is running Purpur version git-Purpur-1171 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[17:18:40] [Server thread/INFO]: Debug logging is disabled
+[17:18:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:18:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:18:40] [Server thread/INFO]: Default game type: SURVIVAL
+[17:18:40] [Server thread/INFO]: Generating keypair
+[17:18:41] [Server thread/INFO]: Starting Minecraft server on *:64512
+[17:18:41] [Server thread/INFO]: Using epoll channel type
+[17:18:41] [Server thread/INFO]: Tuinity: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:18:41] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[17:18:42] [Server thread/INFO]: [EasyPayments] Loading 2 libraries... please wait
+[17:18:42] [Server thread/INFO]: [EasyPayments] Loaded library /home/kiktorrr/mingame1/libraries/org/postgresql/postgresql/42.3.3/postgresql-42.3.3.jar
+[17:18:42] [Server thread/INFO]: [EasyPayments] Loaded library /home/kiktorrr/mingame1/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[17:18:42] [Server thread/INFO]: [EasyPayments] Loaded library /home/kiktorrr/mingame1/libraries/com/h2database/h2/2.1.210/h2-2.1.210.jar
+[17:18:44] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[17:18:45] [Server thread/INFO]: [EasyPayments] Loading EasyPayments v2.2.2
+[17:18:45] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[17:18:45] [Server thread/INFO]: [RwRelog] Loading RwRelog v1.0
+[17:18:45] [Server thread/INFO]: [spark] Loading spark v1.10.34
+[17:18:45] [Server thread/INFO]: [MOTD] Loading MOTD v2.3.11
+[17:18:45] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[17:18:45] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[17:18:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:18:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:18:46] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[17:18:47] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.8
+[17:18:47] [Server thread/INFO]: [Matrix] Loading Matrix v7.8.1A
+[17:18:53] [Server thread/INFO]: [Vulcan] Loading Vulcan v2.8.8
+[17:18:53] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:18:53] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.14
+[17:18:53] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.16+6534-2066eb4
+[17:18:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2564229c]
+[17:18:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+93-3a6fdd9
+[17:18:54] [Server thread/INFO]: [GrimAC] Loading GrimAC v2.3.64
+[17:18:55] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[17:18:59] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[17:18:59] [Server thread/INFO]: [SCore] Loading SCore v4.24.6.2
+[17:18:59] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.34-SNAPSHOT (build 3422)
+[17:18:59] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.4
+[17:18:59] [Server thread/INFO]: [antiRedstoneClock] Loading antiRedstoneClock v1.5.0
+[17:18:59] [Server thread/WARN]: [antiRedstoneClock] WorldGuard 7 is not supported
+[17:18:59] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.20.1
+[17:19:00] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (629 ms).
+[17:19:00] [Server thread/INFO]: [Shopkeepers] Loading config.
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ALLAY
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CAMEL
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': FROG
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNIFFER
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': TADPOLE
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': WARDEN
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[17:19:00] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ALLAY
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CAMEL
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': FROG
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNIFFER
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': TADPOLE
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': WARDEN
+[17:19:00] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[17:19:00] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[17:19:00] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[17:19:00] [Server thread/INFO]: [PrimeSeller] Loading PrimeSeller v2.3.6
+[17:19:00] [Server thread/INFO]: [StatsSB] Loading StatsSB v4.0.16-Lite
+[17:19:00] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.14.0-Release
+[17:19:00] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[17:19:00] [Server thread/INFO]: [AirDrop] Loading AirDrop v1.2.8
+[17:19:00] [Server thread/INFO]: [TAB] Loading TAB v4.1.5
+[17:19:00] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.18
+[17:19:00] [Server thread/INFO]: [ProtectionStones] Loading ProtectionStones v2.8.5
+[17:19:00] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.6.13
+[17:19:00] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+93-3a6fdd9
+[17:19:00] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[17:19:00] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v6.24.6.2
+[17:19:00] [Server thread/INFO]: [ExecutableBlocks] Loading ExecutableBlocks v4.24.6.2
+[17:19:00] [Server thread/INFO]: [ProtectAddon] Loading ProtectAddon v2.1.9
+[17:19:00] [Server thread/INFO]: [Sentinel] Loading Sentinel v2.9.0-SNAPSHOT (build 522)
+[17:19:00] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.4.0
+[17:19:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:19:00] [Server thread/INFO]: [MOTD] Enabling MOTD v2.3.11
+[17:19:00] [Server thread/INFO]: [MOTD] [Placeholder] PlaceholderAPI hooked.
+[17:19:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[17:19:01] [Server thread/INFO]:         __    
+[17:19:01] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[17:19:01] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[17:19:01] [Server thread/INFO]: 
+[17:19:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:19:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:19:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:19:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:19:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3547ms)
+[17:19:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:19:04] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+93-3a6fdd9 which is not a depend, softdepend or loadbefore of this plugin.
+[17:19:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:19:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:19:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:19:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:19:04] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.16+6534-2066eb4
+[17:19:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:19:04] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:19:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[17:19:07] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.0
+[17:19:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:19:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:19:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:19:07] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[17:19:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:19:07] [Server thread/INFO]: Preparing level "world"
+[17:19:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:19:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:19:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:19:09] [Server thread/INFO]: Preparing spawn area: 22%
+[17:19:10] [Server thread/INFO]: Time elapsed: 1199 ms
+[17:19:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:19:10] [Server thread/INFO]: Time elapsed: 221 ms
+[17:19:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:19:10] [Server thread/INFO]: Time elapsed: 177 ms
+[17:19:10] [Server thread/INFO]: [EasyPayments] Enabling EasyPayments v2.2.2
+[17:19:10] [Server thread/INFO]: [EasyPayments] Detected NMS version: 1_16_R3 (MC 1.16.5)
+[17:19:11] [Server thread/INFO]: [EasyPayments]  
+[17:19:11] [Server thread/INFO]: [EasyPayments]  EasyPayments is an official payment processing implementation.
+[17:19:11] [Server thread/INFO]: [EasyPayments]  © EasyDonate 2020-2023 - All rights reserved.
+[17:19:11] [Server thread/INFO]: [EasyPayments]  
+[17:19:11] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[17:19:11] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:19:11] [Server thread/INFO]: [RwRelog] Enabling RwRelog v1.0
+[17:19:13] [Server thread/INFO]: [RwRelog] (>) Данный ресурс был скачан с форума LightLeak.pro
+[17:19:13] [Server thread/INFO]: [spark] Enabling spark v1.10.34
+[17:19:13] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[17:19:13] [Server thread/INFO]: [spark] Starting background profiler...
+[17:19:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.34]
+[17:19:14] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[17:19:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[17:19:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4-1.16.5 (754)
+[17:19:14] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 16.0.2).
+[17:19:14] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
+[17:19:14] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.8
+[17:19:14] [Server thread/INFO]: [Matrix] Enabling Matrix v7.8.1A
+[17:19:15] [Server thread/INFO]: *   __  __       _        _
+[17:19:15] [Server thread/INFO]: *  |  \/  |     | |      (_)
+[17:19:15] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
+[17:19:15] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
+[17:19:15] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
+[17:19:15] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
+[17:19:15] [Server thread/INFO]: *  
+[17:19:15] [Server thread/INFO]: *  Cracked by LuckerCracker
+[17:19:15] [Server thread/INFO]: * Matrix AntiCheat v7.8.1A | git-Purpur-1171 (MC: 1.16.5)
+[17:19:15] [Server thread/INFO]: [Matrix] Server Version: V1_16_R3 (#16)
+[17:19:15] [Server thread/INFO]: [Matrix] Checking Environment...
+[17:19:15] [Server thread/INFO]: [Matrix] Passed all environment checks
+[17:19:15] [Server thread/WARN]: [Matrix] You are using an unpopular Minecraft version. This may cause issues.
+[17:19:15] [Server thread/WARN]: [Matrix] Matrix might drop support for this version in the future.
+[17:19:15] [Server thread/WARN]: [Matrix] Please update to a supported version. (1.8.8/1.12.2/1.17+)
+[17:19:15] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
+[17:19:15] [Server thread/INFO]: [Matrix] Enabled 15 checks, Disabled 0 checks
+[17:19:15] [Server thread/INFO]: [Matrix] Loaded all configuration files
+[17:19:15] [Server thread/INFO]: [Matrix] Hooked with ViaVersion 4+
+[17:19:15] [Server thread/WARN]: [Matrix] Vulcan is detected, Matrix might not work properly with it.
+[17:19:18] [Server thread/WARN]: [Matrix] GrimAC is detected, Matrix might not work properly with it.
+[17:19:22] [Server thread/INFO]: [Matrix] Scanning outdated log files....
+[17:19:22] [Server thread/INFO]: [Matrix] Deleted 0 outdated log files!
+[17:19:22] [Server thread/INFO]: [Matrix] Hooked with PlaceholderAPI
+[17:19:22] [Server thread/INFO]: [Matrix] Welcome to Matrix!
+[17:19:22] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.8.8
+[17:19:27] [Server thread/INFO]: [Vulcan] Server Version: 1.16.5 detected!
+[17:19:27] [Server thread/INFO]: [Vulcan] BStats enabled!
+[17:19:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Vulcan [2.8.8]
+[17:19:27] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
+[17:19:27] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.14
+[17:19:27] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[17:19:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [2.19.14]
+[17:19:27] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[17:19:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+93-3a6fdd9
+[17:19:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:19:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:19:28] [Server thread/INFO]: [Essentials] Loaded 39121 items from items.json.
+[17:19:28] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[17:19:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:19:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:19:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:19:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[17:19:28] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.64
+[17:19:28] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[17:19:28] [Server thread/INFO]: [GrimAC] Registering packets...
+[17:19:28] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[17:19:28] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:19:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[17:19:29] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
+[17:19:29] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
+[17:19:29] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:19:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:19:29] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:19:29] [Server thread/INFO]: [SCore] Enabling SCore v4.24.6.2
+[17:19:29] [Server thread/INFO]: ================ SCore ================
+[17:19:29] [Server thread/INFO]: SCore Version of the server git-Purpur-1171 (MC: 1.16.5) !
+[17:19:29] [Server thread/INFO]: SCore ExecutableItems hooked !  (6.24.6.2) Load After
+[17:19:29] [Server thread/INFO]: SCore ExecutableBlocks hooked !  (4.24.6.2) Load After
+[17:19:29] [Server thread/INFO]: SCore PlaceholderAPI hooked !  (2.11.6)  Load Before
+[17:19:29] [Server thread/INFO]: SCore WorldGuard hooked !  (7.0.5+3827266)  Load Before
+[17:19:29] [Server thread/INFO]: SCore Vault hooked !  (1.7.3-b131)  Load Before
+[17:19:29] [Server thread/INFO]: SCore DecentHolograms hooked !  (2.8.8)  Load Before
+[17:19:29] [Server thread/INFO]: SCore ProtectionStones hooked !  (2.8.5) Load After
+[17:19:29] [Server thread/INFO]: SCore TAB hooked !  (4.1.5) Load After
+[17:19:29] [Server thread/INFO]: SCore WorldEdit hooked !  (7.2.16+6534-2066eb4)  Load Before
+[17:19:29] [Server thread/INFO]: SCore Locale setup: EN
+[17:19:29] [Server thread/INFO]: SCore Language of the editor setup on EN
+[17:19:29] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[17:19:29] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[17:19:29] [Server thread/INFO]: SCore Connection to the db...
+[17:19:29] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[17:19:29] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[17:19:29] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[17:19:29] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[17:19:29] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[17:19:29] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[17:19:29] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[17:19:29] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[17:19:29] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[17:19:29] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[17:19:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SCore [1.0.0]
+[17:19:30] [Server thread/INFO]: ================ SCore ================
+[17:19:30] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.34-SNAPSHOT (build 3422)
+[17:19:30] [Server thread/INFO]: [Citizens] Loading external libraries
+[17:19:30] [Server thread/INFO]: [Citizens] Detected system language [[ru]]. If youd like you can contribute to Citizens translations via our Discord! https://discord.gg/Q6pZGSR
+[17:19:30] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[17:19:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[17:19:30] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[17:19:30] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.4
+[17:19:30] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[17:19:30] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[17:19:31] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_16_R3
+[17:19:31] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[17:19:31] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[17:19:31] [Server thread/INFO]: [antiRedstoneClock] Enabling antiRedstoneClock v1.5.0
+[17:19:31] [Server thread/INFO]: [antiRedstoneClock] Enabling Metrics
+[17:19:31] [Server thread/INFO]: [antiRedstoneClock] An error occured while trying to enable metrics. Skipping...
+[17:19:31] [Server thread/WARN]: [antiRedstoneClock] PlotSquared hasn't been found!
+[17:19:31] [Server thread/INFO]: [antiRedstoneClock] Plugin loaded in 17 ms
+[17:19:31] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.20.1
+[17:19:31] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[17:19:31] [Server thread/INFO]: [PrimeSeller] Enabling PrimeSeller v2.3.6
+[17:19:31] [Server thread/INFO]: PrimeSeller | ██████╗░██████╗░██╗███╗░░░███╗███████╗░██████╗███████╗██╗░░░░░██╗░░░░░███████╗██████╗░
+[17:19:31] [Server thread/INFO]: PrimeSeller | ██╔══██╗██╔══██╗██║████╗░████║██╔════╝██╔════╝██╔════╝██║░░░░░██║░░░░░██╔════╝██╔══██╗
+[17:19:31] [Server thread/INFO]: PrimeSeller | ██████╔╝██████╔╝██║██╔████╔██║█████╗░░╚█████╗░█████╗░░██║░░░░░██║░░░░░█████╗░░██████╔╝
+[17:19:31] [Server thread/INFO]: PrimeSeller | ██╔═══╝░██╔══██╗██║██║╚██╔╝██║██╔══╝░░░╚═══██╗██╔══╝░░██║░░░░░██║░░░░░██╔══╝░░██╔══██╗
+[17:19:31] [Server thread/INFO]: PrimeSeller | ██║░░░░░██║░░██║██║██║░╚═╝░██║███████╗██████╔╝███████╗███████╗███████╗███████╗██║░░██║
+[17:19:31] [Server thread/INFO]: PrimeSeller | ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚══════╝╚══════╝╚══════╝╚══════╝╚═╝░░╚═╝
+[17:19:31] [Server thread/INFO]: PrimeSeller | ▀█░█▀ █▀▀ █▀▀█ █▀▀ ░▀░ █▀▀█ █▀▀▄ 
+[17:19:31] [Server thread/INFO]: PrimeSeller | ░█▄█░ █▀▀ █▄▄▀ ▀▀█ ▀█▀ █░░█ █░░█ v2.3.6 | Developer: Telegram: @byteswing
+[17:19:31] [Server thread/INFO]: PrimeSeller | ░░▀░░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░▀ 
+[17:19:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: primeseller [1.0]
+[17:19:31] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.0.16-Lite
+[17:19:31] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[17:19:31] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[17:19:31] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
+[17:19:31] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[17:19:31] [Server thread/INFO]: [DeluxeMenus] 6 GUI menus loaded!
+[17:19:31] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[17:19:31] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[17:19:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
+[17:19:31] [Server thread/INFO]: [AirDrop] Enabling AirDrop v1.2.8
+[17:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: AirDrop [1.0.0]
+[17:19:32] [Server thread/INFO]: [TAB] Enabling TAB v4.1.5
+[17:19:32] [Server thread/INFO]: [TAB] Loaded NMS hook in 173ms
+[17:19:32] [Server thread/INFO]: [TAB] Enabled in 288ms
+[17:19:32] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.18
+[17:19:32] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[17:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supervanish [6.2.18]
+[17:19:32] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[17:19:32] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[17:19:32] [Server thread/WARN]: [SuperVanish] Loaded class net.citizensnpcs.api.ai.speech.event.NPCSpeechEvent from Citizens v2.0.34-SNAPSHOT (build 3422) which is not a depend, softdepend or loadbefore of this plugin.
+[17:19:32] [Server thread/INFO]: [SuperVanish] Hooked into Citizens
+[17:19:32] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.8.5
+[17:19:32] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[17:19:32] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[17:19:32] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[17:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.8.5]
+[17:19:32] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[17:19:32] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[17:19:32] [Server thread/INFO]: [ProtectionStones] - DIAMOND_BLOCK (10)
+[17:19:32] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[17:19:33] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[17:19:33] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[17:19:33] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[17:19:33] [Server thread/INFO]: [ProtectionStones] ProtectionStones has successfully started!
+[17:19:33] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[17:19:33] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[17:19:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[17:19:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+93-3a6fdd9
+[17:19:33] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[17:19:33] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[17:19:33] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[17:19:34] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[17:19:34] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[17:19:34] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[17:19:34] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v6.24.6.2
+[17:19:34] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[17:19:35] [Server thread/WARN]: [ExecutableItems] Loaded class com.ssomar.executableblocks.api.events.ExecutableBlockBreakEvent from ExecutableBlocks v4.24.6.2 which is not a depend, softdepend or loadbefore of this plugin.
+[17:19:36] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material with groups value of material from config, value: SPORE_BLOSSOM (Item: Prem_Nature_Boots) >> Materials with groups available: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+[17:19:36] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the EntityType value of detailedEntities from config, value: GOAT (Item: Prem_Baby_Mob) >> EntityTypes available: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , you can also use MythicMobs entities with the prefix MM- , or accept all entities with *
+[17:19:36] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the EntityType value of detailedEntities from config, value: AXOLOTL (Item: Prem_Baby_Mob) >> EntityTypes available: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , you can also use MythicMobs entities with the prefix MM- , or accept all entities with *
+[17:19:37] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material + GROUPS value of blocks from config, value: DEEPSLATE_IRON_ORE (Item: Prem_AutoSmelt_Pickaxe).(detailedBlocks) >> Check the wiki if you want the list of materials and groups
+[17:19:37] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material + GROUPS value of blocks from config, value: DEEPSLATE_GOLD_ORE (Item: Prem_AutoSmelt_Pickaxe).(detailedBlocks) >> Check the wiki if you want the list of materials and groups
+[17:19:37] [Server thread/INFO]: ExecutableItems ERROR, Invalid command (Command: DROPITEM COPPER_INGOT %rand:1|4%)  (ID: (Item: Prem_AutoSmelt_Pickaxe)) >> A SCommand contains an invalid material: COPPER_INGOT for command: DROPITEM {material} {quantity}
+[17:19:37] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material + GROUPS value of blocks from config, value: COPPER_ORE (Item: Prem_AutoSmelt_Pickaxe).(detailedBlocks) >> Check the wiki if you want the list of materials and groups
+[17:19:37] [Server thread/INFO]: ExecutableItems ERROR, Couldn't load the Material + GROUPS value of blocks from config, value: DEEPSLATE_COPPER_ORE (Item: Prem_AutoSmelt_Pickaxe).(detailedBlocks) >> Check the wiki if you want the list of materials and groups
+[17:19:37] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 127
+[17:19:37] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[17:19:37] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[17:19:37] [Server thread/INFO]: [ExecutableBlocks] Enabling ExecutableBlocks v4.24.6.2
+[17:19:37] [Server thread/INFO]: ========*======== ExecutableBlocks ========*========
+[17:19:38] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Free_Hut) >> Options available: https://docs.ssomar.com/
+[17:19:38] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Free_Test) >> Options available: https://docs.ssomar.com/
+[17:19:38] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Free_Test2) >> Options available: https://docs.ssomar.com/
+[17:19:38] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Prem_Target) >> Options available: https://docs.ssomar.com/
+[17:19:38] [Server thread/INFO]: ExecutableBlocks Amount of Executable Blocks configurations loaded: 21
+[17:19:38] [Server thread/INFO]: ExecutableBlocks There are: 1 ExecutableBlock placed configs to load.
+[17:19:38] [Server thread/INFO]: ExecutableBlocks 0/1 blocks loaded.
+[17:19:38] [Server thread/INFO]: ExecutableBlocks 1 ExecutableBlock(s)Placed loaded !
+[17:19:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ExecutableBlocks [1.0.0]
+[17:19:38] [Server thread/INFO]: ========*======== ExecutableBlocks ========*========
+[17:19:38] [Server thread/INFO]: [ProtectAddon] Enabling ProtectAddon v2.1.9
+[17:19:38] [Server thread/INFO]: 
+[17:19:38] [Server thread/INFO]: PROTECTADDON | Плагин запущен (1.16.5). Версия: v2.1.9
+[17:19:38] [Server thread/INFO]: PROTECTADDON | Разработчик: https://vk.com/emptycsgo
+[17:19:38] [Server thread/INFO]: 
+[17:19:38] [Server thread/INFO]: [Sentinel] Enabling Sentinel v2.9.0-SNAPSHOT (build 522)
+[17:19:38] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[17:19:38] [Server thread/INFO]: [Sentinel] Running on java version: 16.0.2
+[17:19:38] [Server thread/INFO]: [Sentinel] Sentinel loaded on a fully supported Minecraft version. If you encounter any issues or need to ask a question, please join our Discord at https://discord.gg/Q6pZGSR and post in the '#sentinel' channel.
+[17:19:38] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
+[17:19:38] [Server thread/INFO]: [Sentinel] Sentinel found WorldGuard! Adding support for it!
+[17:19:38] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[17:19:38] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:19:38] [Server thread/INFO]: Starting GS4 status listener
+[17:19:38] [Server thread/INFO]: Thread Query Listener started
+[17:19:38] [Query Listener #1/INFO]: Query running on 0.0.0.0:64512
+[17:19:39] [ForkJoinPool.commonPool-worker-3/WARN]: [PlaceholderAPI] Loaded class net.ess3.api.IEssentials from Essentials v2.21.0-dev+93-3a6fdd9 which is not a depend, softdepend or loadbefore of this plugin.
+[17:19:39] [Server thread/INFO]: Running delayed init tasks
+[17:19:39] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[17:19:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:19:39] [Craft Scheduler Thread - 9 - Matrix/INFO]: [Matrix] Successfully fetched your license.
+[17:19:39] [Craft Scheduler Thread - 17 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[17:19:39] [Craft Scheduler Thread - 17 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[17:19:39] [Craft Scheduler Thread - 17 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[17:19:39] [Craft Scheduler Thread - 7 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[17:19:39] [Craft Scheduler Thread - 17 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[17:19:39] [Craft Scheduler Thread - 11 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[17:19:39] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:19:39] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[17:19:39] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[17:19:39] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[17:19:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[17:19:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
+[17:19:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: objective [4.2.0]
+[17:19:39] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[17:19:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[17:19:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[17:19:39] [Server thread/INFO]: 5 placeholder hook(s) registered!
+[17:19:39] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[17:19:39] [Craft Scheduler Thread - 7 - DecentHolograms/INFO]: [DecentHolograms] Loaded 3 holograms!
+[17:19:39] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[17:19:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auctionhouse [2.2.4]
+[17:19:39] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[17:19:39] [Server thread/INFO]: Done (59.114s)! For help, type "help"
+[17:19:39] [Server thread/INFO]: Timings Reset
+[17:19:40] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] No new version available
+[17:19:44] [User Authenticator #1/INFO]: UUID of player MUnityDev is a6c9e62b-80d2-347b-a12a-00c982189a53
+[17:19:44] [Server thread/INFO]: MUnityDev joined the game
+[17:19:44] [Server thread/INFO]: MUnityDev[/90.151.88.112:1385] logged in with entity id 288 at ([world]-164.7211780692661, 51.189862663424755, 81.67002233416657)
+[17:19:46] [Server thread/INFO]: [Matrix] (Via) Player MUnityDev joined with (1.16.x/754) client
+[17:19:51] [Server thread/WARN]: MUnityDev moved too quickly! 0.0,-11.828158680186348,0.0
+[17:20:04] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] MUnityDev logged in 90.151.88.112
+[17:20:06] [Server thread/INFO]: MUnityDev fell out of the world
+[17:20:13] [Server thread/INFO]: MUnityDev issued server command: /gamemode creative
+[17:20:49] [Server thread/INFO]: MUnityDev issued server command: //regen
+[17:21:00] [Server thread/INFO]: MUnityDev issued server command: //POS
+[17:21:05] [Server thread/INFO]: MUnityDev issued server command: //pos1
+[17:21:09] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x40) 
+[17:21:10] [Server thread/INFO]: MUnityDev issued server command: //pos2
+[17:21:13] [Server thread/INFO]: MUnityDev issued server command: //regen
+[17:22:48] [Server thread/INFO]: MUnityDev issued server command: //pos1
+[17:22:56] [Server thread/INFO]: MUnityDev issued server command: //pos1
+[17:23:02] [Server thread/INFO]: MUnityDev issued server command: //pos2
+[17:23:04] [Server thread/INFO]: MUnityDev issued server command: //regen
+[17:23:50] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x80) 
+[17:24:29] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x120) 
+[17:25:17] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x160) 
+[17:25:23] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x160) 
+[17:25:41] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x160) 
+[17:27:05] [Server thread/INFO]: Grim » MUnityDev провалил AimDuplicateLook (x200) 
+[17:27:05] [Server thread/INFO]: MUnityDev lost connection: Disconnected
+[17:27:05] [Server thread/INFO]: MUnityDev left the game
+[17:31:01] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:106) ~[patched_1.16.5.jar:git-Purpur-1171]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:223) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133) ~[patched_1.16.5.jar:git-Purpur-1171]
+	... 9 more
+[17:31:01] [Server thread/INFO]: Stopping server
+[17:31:01] [Server thread/INFO]: SCore Save UsagePerDay....
+[17:31:02] [Server thread/INFO]: SCore Save UsagePerDay done !
+[17:31:02] [Server thread/INFO]: SCore Save Commands...
+[17:31:02] [Server thread/INFO]: SCore Save Commands done !
+[17:31:02] [Server thread/INFO]: SCore Save Cooldowns...
+[17:31:02] [Server thread/INFO]: SCore Save Cooldowns done !
+[17:31:02] [Server thread/INFO]: SCore Run delayed saving tasks...
+[17:31:02] [Server thread/INFO]: SCore Run delayed saving tasks done !
+[17:31:02] [Server thread/INFO]: [TAB] Disabled in 0ms
+[17:31:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Shutdown initiated...
+[17:31:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Shutdown completed.
+[17:31:02] [Server thread/INFO]: PrimeSeller | ██████╗░██████╗░██╗███╗░░░███╗███████╗░██████╗███████╗██╗░░░░░██╗░░░░░███████╗██████╗░
+[17:31:02] [Server thread/INFO]: PrimeSeller | ██╔══██╗██╔══██╗██║████╗░████║██╔════╝██╔════╝██╔════╝██║░░░░░██║░░░░░██╔════╝██╔══██╗
+[17:31:02] [Server thread/INFO]: PrimeSeller | ██████╔╝██████╔╝██║██╔████╔██║█████╗░░╚█████╗░█████╗░░██║░░░░░██║░░░░░█████╗░░██████╔╝
+[17:31:02] [Server thread/INFO]: PrimeSeller | ██╔═══╝░██╔══██╗██║██║╚██╔╝██║██╔══╝░░░╚═══██╗██╔══╝░░██║░░░░░██║░░░░░██╔══╝░░██╔══██╗
+[17:31:02] [Server thread/INFO]: PrimeSeller | ██║░░░░░██║░░██║██║██║░╚═╝░██║███████╗██████╔╝███████╗███████╗███████╗███████╗██║░░██║
+[17:31:02] [Server thread/INFO]: PrimeSeller | ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚══════╝╚══════╝╚══════╝╚══════╝╚═╝░░╚═╝
+[17:31:02] [Server thread/INFO]: PrimeSeller | ▀█░█▀ █▀▀ █▀▀█ █▀▀ ░▀░ █▀▀█ █▀▀▄ 
+[17:31:02] [Server thread/INFO]: PrimeSeller | ░█▄█░ █▀▀ █▄▄▀ ▀▀█ ▀█▀ █░░█ █░░█ v2.3.6 | Developer: Telegram: @byteswing
+[17:31:02] [Server thread/INFO]: PrimeSeller | ░░▀░░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░▀ 
+[17:31:02] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:31:02] [Server thread/INFO]: Saving players
+[17:31:02] [Server thread/INFO]: Saving worlds
+[17:31:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:31:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:31:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:31:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:31:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:31:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:31:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:31:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:31:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:31:03] [Server thread/INFO]: Flushing Chunk IO
+[17:31:03] [Server thread/INFO]: Closing Thread Pool
+[17:31:03] [Server thread/INFO]: Closing Server

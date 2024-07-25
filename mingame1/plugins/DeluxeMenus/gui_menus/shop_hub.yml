@@ -1,0 +1,35 @@
+#=========================================================
+#
+#
+#  Не забудьте подключить это меню
+#
+#  Для этого, вставьте этот кусок конфига в config.yml:
+#  shop_hub:
+#    file: shop_hub.yml
+#
+#
+#=========================================================
+menu_title: '&8Магазин'
+open_command: shop
+register_command: true
+size: 36
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: shop.open
+      deny_commands:
+        - "[message] &cУ вас нет прав."
+items:
+  '1':
+    material: chest
+    slot: 11
+    display_name: '   &8< &a&lРандомные коробки&8>   '
+    left_click_commands:
+      - '[openguimenu] shop_blocks'
+  '2':
+    material: diamond_sword
+    slot: 15
+    display_name: '   &8< &a&lУникальные предметы&8>   '
+    left_click_commands:
+      - '[openguimenu] shop_items'

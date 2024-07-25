@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.186.119.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718123184822
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718123193142
+  login: 1718122872204
+money: '6408.3'
+last-account-name: MaksVolk21
+lastlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -892.8375739155118
+  y: 74.16704634403305
+  z: -578.5545685721014
+  yaw: 291.02313232421875
+  pitch: 7.200127601623535
+logoutlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -178.21965675165686
+  y: 57.0
+  z: 92.37953149104764
+  yaw: -61.309906005859375
+  pitch: 10.499979019165039

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.137.29.57
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1717837603309
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717915663481
+  login: 1717915069235
+money: '0'
+last-account-name: domergrief26
+lastlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -175.057775546264
+  y: 57.0
+  z: 100.8558267788802
+  yaw: -4.379638671875
+  pitch: 6.544379234313965
+logoutlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -173.21218134725328
+  y: 57.0
+  z: 83.70584278613576
+  yaw: -39.398834228515625
+  pitch: 34.295841217041016

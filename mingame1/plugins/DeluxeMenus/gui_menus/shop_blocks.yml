@@ -1,0 +1,227 @@
+#=========================================================
+#
+#
+#  Не забудьте подключить это меню
+#
+#  Для этого, вставьте этот кусок конфига в config.yml:
+#  shop_blocks:
+#    file: shop_blocks.yml
+#
+#
+#=========================================================
+menu_title: '&8Магазин &7→ &8Сундуки'
+open_command: shop chests
+size: 45
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: shop.open
+      deny_commands:
+        - "[message] &cУ вас нет прав."
+items:
+  '1':
+    material: chest
+    slot: 11
+    amount: 1
+    display_name: '&6• Chest lvl 1 •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$100'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 100
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 100'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eChest lvl 1'
+      - '[message]'
+      - '[console] ei give %player_name% start_chest'
+  '2':
+    material: chest
+    slot: 13
+    amount: 1
+    display_name: '&6• Chest lvl 2 •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$2000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 2000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 2000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eChest lvl 2'
+      - '[message]'
+      - '[console] ei give %player_name% chestn2'
+  '3':
+    material: chest
+    slot: 15
+    amount: 1
+    display_name: '&6• Chest lvl 3 •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$5000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 5000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 5000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eChest lvl 3'
+      - '[message]'
+      - '[console] ei give %player_name% chestn3'
+  '4':
+    material: chest
+    slot: 20
+    amount: 1
+    display_name: '&6• Mob chest •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$50000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 50000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eMob chest'
+      - '[message]'
+      - '[console] ei give %player_name% spawner_chest'
+  '5':
+    material: chest
+    slot: 21
+    amount: 1
+    display_name: '&6• Log chest •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$10000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 10000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 10000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &elog chest'
+      - '[message]'
+      - '[console] ei give %player_name% logchest'
+  '6':
+    material: chest
+    slot: 22
+    amount: 1
+    display_name: '&c• PvP set chest •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$20000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 20000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 20000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &ePvP set chest'
+      - '[message]'
+      - '[console] ei give %player_name% pvp_set_chest'
+  '7':
+    material: chest
+    slot: 23
+    amount: 1
+    display_name: '&c• Chest с уникальными предметами •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$20000'
+    - ''
+    - '&f&lКроме обычных предемтов из магазина'
+    - '&f&lЕсть особые которые выпадают только из'
+    - '&f&lэтого сунудка'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 20000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 20000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eChest с уникальными предметами'
+      - '[message]'
+      - '[console] ei give %player_name% custom_item_chest'
+  '8':
+    material: spawner
+    slot: 24
+    amount: 1
+    display_name: '&c• Spawner •'
+    lore:
+    - ''
+    - '&aЛКМ &7- Купить за &e$50000'
+    - ''
+    left_click_requirement:
+      requirements:
+        balance:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[message]'
+          - '[message]&c (&7$&c) У вас недостаточно средств для покупки!'
+          - '[message]'
+    left_click_commands:
+      - '[takemoney] 50000'
+      - '[refresh]'
+      - '[message]'
+      - '[message]&a&l Магазин &8» &fВы успешно приобрели &eSpawner'
+      - '[message]'
+      - '[console] minecraft:give %player_name% spawner'
+

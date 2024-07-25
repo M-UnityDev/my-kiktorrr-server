@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.137.29.57
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717911209533
+  login: 1717911191527
+money: '0'
+last-account-name: zWhite_7
+lastlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -166.5
+  y: 57.0
+  z: 86.5
+  yaw: 5.870813846588135
+  pitch: 0.0
+logoutlocation:
+  world: 49c8348d-6db4-41ed-a0e5-f8f2087d74b2
+  world-name: world
+  x: -172.82915111134434
+  y: 58.0
+  z: 92.7227794294346
+  yaw: -26.34027099609375
+  pitch: 24.018020629882812

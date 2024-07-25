@@ -1,0 +1,674 @@
+data:
+  '10':
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Fire
+        ball launcher"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Запускает
+        огненные шары которые могут"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"разрушить
+        блоки в привате"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Remaining
+        uses: 1"}],"text":""}'
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: Firebal
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PAPER
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"12.7mm"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Нужен
+        для Assault rifle"}],"text":""}'
+      attribute-modifiers:
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          name: '&eDefault name'
+          slot: HAND
+          uuid: 19bc3e31-2610-4fda-8b79-11ad9f235403
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: patr1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"P§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF1000","text":"v§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF2100","text":"p
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF4100","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5200","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF6200","text":"t
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8300","text":"c§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9300","text":"h§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA300","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB400","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC400","text":"t"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"сундук
+        с сетом случайных вещей на 10 использований"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Remaining
+        uses: 1"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpMED0MDYLpwkUjJAwpM0KBMuxomYY/M7WBwRa2rvUmrvQAbj2KnsClLF1+773NpwFocL1qes4f2sddxZkKCs4FA0WyTmqgTfjAWlmx7hJUyU6yb1mnAcCZChdJznsGH2zw9Cwt9SL1+HZA1rSjlc4Jqg+3aJ8Mm3tkITF5d2Eth/m/1pT52uTU8MpsH/QbkehLI+TMDWdbET9hOzZ9kTRYBEcc8TKLApOOzQ2xFyOt0UDW8UgiT2A7OPrCGXBd1MTGFRXUIDYayRrpmUgErkNOhXPyR2eklTffpfodwBWco2I6orzPnt++P3339ef3y3wxS4A/4mBs5hcBAAA=
+      PublicBukkitValues:
+        executableitems:ei-disablestack: b4b8315a-498f-4f2e-a774-fda7db02805e
+        score:usage: 1i
+        executableitems:ei-id: pvp_set_chest
+      skull-owner: test
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SLIME_BALL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"dark_purple","text":"O
+        "},{"bold":false,"italic":false,"obfuscated":false,"color":"aqua","text":"Morph
+        Pickaxe "},{"italic":false,"color":"white","text":"("},{"italic":false,"color":"yellow","text":"Tier
+        1"},{"italic":false,"color":"white","text":") "},{"bold":true,"italic":false,"obfuscated":true,"color":"dark_purple","text":"O"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ABILITIES:"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+        - "},{"bold":true,"italic":false,"color":"aqua","text":"Morphing "},{"bold":true,"italic":false,"color":"white","text":"("},{"bold":true,"italic":false,"color":"dark_aqua","text":"SHIFT
+        RIGHT-CLICK"},{"bold":true,"italic":false,"color":"white","text":")"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cycles
+        through in a form of a "},{"italic":false,"color":"gold","text":"Pickaxe,"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Axe,
+        Shovel, Hoe, Flint and Steel, Shears"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+        a "},{"italic":false,"color":"gold","text":"Fishing Rod"},{"italic":false,"color":"white","text":".
+        "}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: Prem_Morph_Pickaxe_Lvl1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        FROST_WALKER: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        ARROW_KNOCKBACK: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_FALL: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        ARROW_INFINITE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Assault
+        rifle"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стреляет
+        как обычно"}],"text":""}'
+      custom-model-data: 10101
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      PublicBukkitValues:
+        executableitems:ei-disablestack: 62cd4381-630b-4386-934f-3b18a71e4c0d
+        score:usage: 1i
+        executableitems:ei-id: assault_rifle
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LAPIS_LAZULI
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Снайперская
+        винтовка"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Очень
+        мощно стреляет стрелами"}],"text":""}'
+      custom-model-data: 10101
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -30.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 607592de-03c3-4733-a572-38f7053e4e11
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      PublicBukkitValues:
+        executableitems:ei-disablestack: 7deef285-55a9-4ece-9ab0-2ca0eae99eab
+        score:usage: 1i
+        executableitems:ei-id: Vintovkf
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        QUICK_CHARGE: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        LOOT_BONUS_MOBS: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+  '1':
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Снайперская
+        винтовка"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Очень
+        мощно стреляет стрелами"}],"text":""}'
+      custom-model-data: 10101
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -30.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 607592de-03c3-4733-a572-38f7053e4e11
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      PublicBukkitValues:
+        executableitems:ei-disablestack: d3c1af41-ed99-40c3-ad5c-ee7afc508d77
+        score:usage: 1i
+        executableitems:ei-id: Vintovkf
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Assault
+        rifle"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стреляет
+        как обычно"}],"text":""}'
+      custom-model-data: 10101
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      PublicBukkitValues:
+        executableitems:ei-disablestack: ccbb5bf8-ae35-47bb-be87-dc7a9dcf138f
+        score:usage: 1i
+        executableitems:ei-id: assault_rifle
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#08FB54","text":"C§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2BDF4F","text":"h§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4EC24B","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#71A646","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#938942","text":"t
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D95039","text":"N§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC3434","text":"2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Более
+        продвинутый сундук с вещами"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02PMVKDQBhGfx2cQfQwICFOihQiBcsEIglg2I7ABrLsYgYWJ2xrrTex0gPYehQ9gaXYWX7ve83TADS4XNc9Y3ftw27PiApKkHECiiCd0EAb8YG0Yk+6c1AFOYq+JZ0GACcqnCUZ6wm8k8HT8abSi43H8gFNxx2tdbZE9HCNmmTY3qIp4uPv3kwXw+yfa4ns3mKp6VW4CfstT/SFuWLEXRk5jx8DWl+lFNNAFtzn/tGPfIkprjHNZcCTkYWTVMYDdkIT03gSOKWZSiRxVOpLx2ajZ+HIrgNqVz4trT8HNcZsF87nABdwiooxRHkznl6/Pnz35fvn03q2KoBf1xHXqBcBAAA=
+      PublicBukkitValues:
+        executableitems:ei-disablestack: b2a5b236-adfa-4aa6-a7b4-72a40af21ad0
+        score:usage: 1i
+        executableitems:ei-id: chestn2
+      skull-owner: test
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFFF","text":"C§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFE2E2","text":"h§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC5C5","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEA8A8","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FD8B8B","text":"t
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC5151","text":"N§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC3434","text":"3"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Очень
+        даже продвинутый сундук с вещами"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"есть
+        шанс получить незеритовый слиток"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02PQVLCMBhGfx2cwephAtg6LFwgcabJkFRLCyS7UoJtSZCBFGi3rvUmrvQAbj2KnsClXbr83nubzwFw4HK8KrW+3z4tc63a0OKJUdCyamcdcBq8UVubq905tK062nKrdg4AnLThbJLoUsGHqiiSswwtZlSnFfGaHY2RDkixuSbrSTUfEo+YxvsDb1T1/7WuTaauFj2ayfVDOTcTNOqFWvlhJzXxXuIYBXiAuAlX3MiM4bTH6tuCdWUuilCLLtV8yo4iYohhUQVRijh+PHAjrgJ8h3gR1xLLTERpR0SrA6tpwYe0v5yhG4ALOCWL5kjrvfP89v3J/Nef3y/3xc0A/gCSvkkkFwEAAA==
+      PublicBukkitValues:
+        executableitems:ei-disablestack: 362f3039-2bbf-49c0-beb7-321263ee8498
+        score:usage: 1i
+        executableitems:ei-id: chestn3
+      skull-owner: test
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#08FB54","text":"S§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#21F35D","text":"t§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#39EB66","text":"a§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#52E46F","text":"r§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6ADC78","text":"t
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9BCC89","text":"C§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B4C492","text":"h§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCBD9B","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E5B5A4","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDADAD","text":"t"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Обычный
+        начальный сундук с простыми вещами"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/03Pu1LCQBgF4F8nzsTowwRC4lBYCJFkd9hEIeSyXYDFXHaRyQUJrbW+iZU+gK2Pok9g6ZaW55yvORqABpfzsuX8rnrc5JypoHipYKA0rG400GS9Y1WTs/oc1IYdmrZitQYAJyqchSlvGXywDus0zvR1jPmqQ5bMwVznPip2V2gbdssxspCQu3tjTbvhP2s2aWTyxMAZ3d63SxHqU2PGmTvrrcRiT22ek6IckD55IhEaUOfWoA45JMeRIAEuiY0Lz5lIMyqonXGveDC8aCFd0vejMKMBznw7MRIx4TRIOnKkpTfGw02sXwNcwClayyPKe+/57fuTuK8/v1/mi5kB/AGu3i72FwEAAA==
+      PublicBukkitValues:
+        executableitems:ei-disablestack: 7dea1d02-f177-4eea-9ff4-4cbaf34a9b8a
+        score:usage: 1i
+        executableitems:ei-id: start_chest
+      skull-owner: test
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"M§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E22000","text":"o§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C54000","text":"b
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8C8000","text":"c§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6F9F00","text":"h§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#52BF00","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#35DF00","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#18FF00","text":"t"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Выпадают
+        разные мобы (одноразовый)"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02PPVKDUBRGrw7ORHQxIAEnhYUKMzwmj8hPErhdfl6Ex30xk0AmpLXWnVjpAmxdiq7AUkrL75zTfDqADpdJ1RA9bJ9WJYkeaOFMCdBqsat10Du8Edu6FLtz6NXiUDdbsdMB4KQHZ5MZNQI+RBsYmBXGMgto0TKn22li0IjJzTVbT9r5PXOY6rx/6wzbwb/WrmdTm3IrKHAdNXM1MYZWTMKPzYUa7zGlIjwyC92l5BIplGOLp3dq5FKJkpk4xTJPKwNT78hldeDK64+mKEMZEyp2xdPHlrvRIVdRH13PCl0qMAkGq8y4AbiAU7bsjmjv5vPb9yf3X39+v+wXuwD4Aw18OTkXAQAA
+      PublicBukkitValues:
+        executableitems:ei-disablestack: bfd6b7c9-6208-47e6-adf1-bba34c84627e
+        score:usage: 1i
+        executableitems:ei-id: spawner_chest
+      skull-owner: test
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Ninja
+        sword"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Нажмите
+        ПКМ что бы сделать рывок"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Остается
+        после смерти"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        KNOCKBACK: 1
+        LOOT_BONUS_MOBS: 5
+        DAMAGE_ALL: 5
+        DAMAGE_UNDEAD: 5
+        SWEEPING_EDGE: 3
+      Unbreakable: true
+      PublicBukkitValues:
+        executableitems:ei-disablestack: c14d50f3-9b65-49ab-a23f-b43ae0606e22
+        score:usage: 1i
+        executableitems:ei-id: ninga_sword_inf
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Ninja
+        sword"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Нажмите
+        ПКМ что бы сделать рывок"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        KNOCKBACK: 1
+        LOOT_BONUS_MOBS: 5
+        DAMAGE_ALL: 5
+        DAMAGE_UNDEAD: 5
+        SWEEPING_EDGE: 3
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: ninga_sword
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"☄
+        "},{"bold":true,"italic":false,"color":"aqua","text":"Харчек "},{"bold":false,"italic":false,"color":"dark_aqua","text":"☄"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Наденьте
+        на голову и"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"нажмите
+        на Shift что бы харкнуть"}],"text":""}'
+      internal: H4sIAAAAAAAA/02PP1KDQByFfzo4g+hhYBCcFBZOMsruZBdJCLDbkWQjrLsxwx8TaK31JlZ6AFuPoiewlNLyve99xbMALDifP7RK3VWPm1IJEwyaawFGI+rGAmuod6JqSlGfgtmIQ9NWorYA4MiEkyRXrYAP0WGbZ4W9zrBadcgfcjy3VYjk7hJtk245Rj7SAw+u/Wk3+rf1mjz1FHNxwbdRu9SJPXVnSgQzZ6UXTyxddFzSksfMJT1W4QRLGhOXyUTxNNpzGTlUFmU4iTzaF5pL0jNNLlgcuWF6o+ktLrlmB5JGPe3vBw+5dIxHm8y+AjiDY7QejhjvzvPb9ycJXn9+v7wXrwD4A91iOZoXAQAA
+      PublicBukkitValues:
+        score:usage: -1i
+        executableitems:ei-id: Free_Spit
+      skull-owner: test
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Fire
+        ball launcher"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Запускает
+        огненные шары которые могут"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"разрушить
+        блоки в привате"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Remaining
+        uses: 1"}],"text":""}'
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: Firebal
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grappling
+        hook"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Притягивает
+        за собой игрока"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: -1i
+        executableitems:ei-id: Prem_Grappling_Hook
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Хук"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Притягивает
+        к себе сущность включая игрока"}],"text":""}'
+      enchants:
+        KNOCKBACK: 2
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: -1i
+        executableitems:ei-id: hook_grap
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Fast-moving
+        dagger"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Позволяет
+        делать рывки от сущности"}],"text":""}'
+      enchants:
+        DAMAGE_ARTHROPODS: 10
+        LOOT_BONUS_MOBS: 4
+        DAMAGE_ALL: 3
+        DAMAGE_UNDEAD: 10
+        SWEEPING_EDGE: 10
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: fasd
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0300FF","text":"U§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0B17E8","text":"n§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#122ED1","text":"i§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1A46B9","text":"q§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#215DA2","text":"u§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#29748B","text":"e
+        §"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#38A25D","text":"c§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3FB946","text":"h§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#47D12E","text":"e§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4EE817","text":"s§"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#56FF00","text":"t"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Выдает
+        один из необычных и уникальных предметов"}],"text":""}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02Pu1KDQBhGfx2cQfRhuAScFBYZQdmdLBiScNmOJBthWWKGi4G01vomVvoAtj6KPoGllJbnfKf5FAAFLudFK8R99bjNBZNB8tKSgdSwulFAGfSeVU3O6nOQG9Y1bcVqBQBOZDgLU9Ey+GA9VmmcqZsYi3WPrIEXc1X4iO+v0C7sVzfIQuWwuxNr2o//tWaTRqZIDJzR3axdlaE6NQLB3EBbl8unhDudv0gMoge5x29FouPCs3E+eJWWmCd8qRNODrQkGrWzgvLJyI+cg287Bo2QSeyHgWcaOWa5f+d03pGMkhyPt7F6DXABp2gzHJHetee370/ivv78fpkvZgbwB2qXHUMXAQAA
+      PublicBukkitValues:
+        executableitems:ei-disablestack: d1c4de1a-cad8-4f94-a396-9ca20d19522f
+        score:usage: 1i
+        executableitems:ei-id: custom_item_chest
+      skull-owner: test
+  '40':
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LAVA_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WATER_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TNT
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: REDSTONE_TORCH
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TORCH
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RAIL
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ANCIENT_DEBRIS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TNT_MINECART
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EMERALD_BLOCK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_poison
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_strength
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_invisibility
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LINGERING_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_slowness
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LINGERING_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_slowness
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LINGERING_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_fire_resistance
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_slow_falling
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LINGERING_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_harming
+  '70':
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TWISTING_VINES
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TWISTING_VINES
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TWISTING_VINES
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: KELP
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: KELP
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: KELP
+    amount: 16

@@ -1,0 +1,157 @@
+#            ___      _   _            ___           _      _                      Our plugins: https://alonsoaliaga.com/plugins
+#           | _ ) ___| |_| |_ ___ _ _ / __|__ _ _ __| |_ __| |_  __ _              Support server: https://alonsoaliaga.com/discord
+#           | _ \/ -_)  _|  _/ -_) '_| (__/ _` | '_ \  _/ _| ' \/ _` |             Youtube: https://alonsoaliaga.com/play
+#           |___/\___|\__|\__\___|_|  \___\__,_| .__/\__\__|_||_\__,_|             Test server: plugins.alonsoaliaga.com
+#                             by AlonsoAliaga  |_|                                 Twitch: https://alonsoaliaga.com/twitch
+#              Considering donating? https://alonsoaliaga.com/donate               Thanks for using my plugin! <3
+#  ======================================================================================================================================
+#  |              Downloaded this jar in a server setup? Tell the author he is NOT allowed to upload someone else work!                 |
+#  |   Update to latest version as soon as possible. Support WON'T be given when using old versions. Specially from downloaded setups.  |
+#  | Remember: Support is only provided for .jar files downloaded DIRECTLY from spigotmc.org! Other files will be considered as invalid |
+#  |        as they are NOT the same .jar file the developer (me) uploaded and I cannot guarantee that the file is safe or not.         |
+#  |                   If you have issues with setup configs. Tell the setup author to update his config file.                          |
+#  ======================================================================================================================================
+Messages:
+  No-permission: '&eКапча &f» &cУ вас нет разрешения.'
+  Reloaded: '&eКапча &f» &7Некоторые сообщения и опции были перезагружены. &7&lДругие
+    могут потребовать перезапуска!'
+  Invalid-player: '&eКапча &f» &7Игрок не онлайн.'
+  Start:
+    Cancelled: '&eКапча &f» &7Ваша попытка запустить проверку капчи для &7&l{PLAYER}
+      &7была отменена плагином.'
+    Pending: '&eКапча &f» &7Игрок &7&l{PLAYER} &7уже находится в процессе проверки
+      капчи.'
+    Started: '&eКапча &f» &7Вы запустили проверку капчи для &7&l{PLAYER}&7.'
+    Started-other: '&eКапча &f» &7Вы начали процесс проверки капчи/'
+    Bulk: '&eКапча &f» &7Запущен процесс капчи для {SUCCESS} игроков, {SKIPPED} пропущен
+      с разрешения, {LOGGING} игроки не зарегистрированые на (AuthMe) и {PENDING}
+      уже находятся в процессе капчи.'
+    Bulk-empty: '&eКапча &f» &7Не удается найти игроков для начала процесса верификации.
+      &a(Все они вошли в систему, обошли или уже в процессе капчи)'
+    Not-logged: '&eКапча &f» &7Игрок &7&l{PLAYER} &7не аутентифицирован в AuthMe.
+      &aПропускаем...'
+  Stop:
+    Cancelled: '&eКапча &f» &7Ваша попытка остановить проверку капчи для &7&l{PLAYER}
+      &7была отменена плагином/'
+    Not-pending: '&eКапча &f» &7Игрок &7&l{PLAYER} &7не находится в процессе проверки
+      капчи.'
+    Stopped: '&eКапча &f» &7Вы остановили проверку капчи для &7&l{PLAYER}&7.'
+    Stopped-other: '&eКапча &f» &7Вы пропустили процесс проверки капчи.'
+    Bulk: '&eКапча &f» &7Остановлен процесс captcha для {STOPPED} игроков.'
+    Bulk-empty: '&eКапча &f» &cНе удалось найти игроков с активным процессом капчи.'
+  Started:
+    Sound: CHEST_OPEN
+  Stopped:
+    Sound: ITEM_BREAK
+  Completed:
+    Enabled: true
+    Sound: EXP_ORB
+    Message:
+    - '&aКапча успешно пройдена!'
+    - ' &r'
+    - '             &6Добро пожаловать на сервер &c&lAnarhyKik'
+    - ' &r'
+    - '                &7{PLAYER}, спасибо, что играете на нашем сервере.'
+    - ' &r'
+    - '                 &bДискорд: &ehttps://discord.gg/5H6pECzgag '
+    - '                 &bПравила: &6http://surl.li/uhhmf'
+    - ' &r'
+  Failed:
+    Enabled: true
+    Sound: ANVIL_LAND
+    Message:
+    - ' &r'
+    - '&cВы не прошли капчу и были кикнуты.'
+    - ' &r'
+  Cache:
+    Enabled: true
+    Sound: EXP_ORB
+    Message:
+    - '&7Вы уже проходили проверку не давно.'
+    - ' &r'
+    - '             &6Добро пожаловать на сервер &c&lAnarhyKik'
+    - ' &r'
+    - '                &7{PLAYER}, спасибо, что играете на нашем сервере.'
+    - ' &r'
+    - '                 &bДискорд: &ehttps://discord.gg/5H6pECzgag '
+    - '                 &bПравила: &6http://surl.li/uhhmf'
+    - ' &r'
+  Help:
+    Admin:
+    - '&7&l /bettercaptcha start <ник> &f- &7Начать процесс капчи для игрока.'
+    - '&7&l /bettercaptcha stop <ник> &f- &7Остановить процесс капчи для игрока.'
+    - '&7&l /bettercaptcha reload &f- &7Перезагрузка Конфигурации.'
+    User: []
+  Status:
+    Enabled: '&eКапча &f» &7Каптча включена! Новые игроки должны будут заполнить капчу.'
+    Disabled: '&eКапча &f» &7Каптча отключена! Новым игрокам не нужно будет заполнять
+      капчу.'
+  Toggle:
+    Enabled: '&eКапча &f» &7Каптча была включена! Новые игроки должны будут заполнить
+      капчу.'
+    Disabled: '&eКапча &f» &7Каптча отключена! Новым игрокам не нужно будет заполнять
+      капчу.'
+Permissions:
+  Admin: bettercaptcha.admin
+  Bypass: bettercaptcha.bypass
+  Main: none
+  Cache: none
+  Ignore: bettercaptcha.ignore-player
+Options:
+  Debug-mode: false
+  Total-steps: 2
+  Time-per-captcha: 10
+  Strict-click: true
+  Cache:
+    Enabled: true
+    Time: 20
+  Block:
+    Commands: true
+    Damage: true
+    Block: true
+    Chat: true
+    Teleport: true
+    Consume: true
+    Toggle-flight: true
+  Complete:
+    Commands:
+      Enabled: false
+      List:
+      - say Игрок {PLAYER} выполнил капчу!
+      - eco {PLAYER} add 10
+    Server:
+      Enabled: false
+      Server-name: lobby
+      Delay: -1
+      Interval: 20
+  Fail:
+    Kick:
+      Reason:
+      - ''
+      - '&7&l{PLAYER}, вы не прошли проверку.'
+      - '&fВы были отключены от сервера!&r'
+      - ''
+      Enabled: false
+      List:
+      - 'say Игрок {PLAYER} с UUID: {UUID} не прошел проверку!'
+      - eco {PLAYER} take 150
+  Hooks:
+    AuthMe-reloaded:
+      Enabled: true
+  Mode:
+    Warning:
+    - 'Available types for Mode:'
+    - ' NORMAL: Requests captcha to all players who join.'
+    - ' FIRST_JOIN: Requests captcha only to new players.'
+    - '             This relies on player data from main world.'
+    - Do not edit this text. It's only for owners, players won't read it.
+    Type: NORMAL
+  Aliases:
+  - bcaptcha
+Updates:
+  Auto-update-configuration: true
+  Check-updates: false
+  Notify-updates: true
+  Permission: bettercaptcha.update
+  Message: '&eКапча &f» &eA new update has been found! You are using version {CURRENT}.
+    Download version {NEW} here &c{LINK}'
